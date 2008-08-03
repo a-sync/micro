@@ -1,0 +1,144 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+@name: MicroBlog Design
+@author: Vector Akashi
+@url: www.onethreestudio.com
+@description: v1.0 - 2008.08.03
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* ----- global ----- */
+html, body {
+background-image: url('pic/night_body_bg.png');
+
+background-attachment: fixed;
+/*
+background-image: url('1600_0615.jpg');
+background-attachment: scroll;
+*/
+background-position: center center;
+color: lavender;
+font-family: Helvetica, Arial, Tahoma, serif;
+font-size: 12px;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+a:link {
+color: lavender;
+text-decoration: underline;
+}
+
+a:visited {
+color: lavender;
+text-decoration: underline;
+}
+
+a:hover {
+color: darkorange;
+text-decoration: none;
+}
+
+/* ----- containers ----- */
+#head {
+background-image: url('pic/night_head_bg.png');
+background-repeat: no-repeat;
+background-position: bottom center;
+width: 320px;
+height: 120px;
+margin: 0 auto;
+padding: 0;
+}
+
+#menu {
+background-image: url('pic/night_menu_bg.png');
+background-repeat: no-repeat;
+background-position: bottom center;
+width: 310px;
+height: 34px;
+margin: 0 auto;
+padding: 6px 5px 0 5px;
+text-align: left;
+}
+
+#main {
+background-image: url('pic/night_main_bg.png');
+background-position: top center;
+width: 300px;
+height: auto;
+margin: 0 auto;
+padding: 8px 10px 0 10px;
+text-align: left;
+}
+
+#foot {
+background-image: url('pic/night_foot_bg.png');
+background-repeat: no-repeat;
+background-position: top center;
+width: 320px;
+height: 30px;
+font-size: 10px;
+margin: 0 auto;
+padding: 50px 0 0 0;
+}
+
+/* ----- content ----- */
+#menu a:link {
+text-decoration: none;
+font-weight: bold;
+font-size: 15px;
+
+margin: 0 3px 0 3px;
+padding: 3px 0 0 0;
+}
+
+#menu a:visited {
+text-decoration: none;
+font-weight: bold;
+font-size: 15px;
+
+margin: 0 3px 0 3px;
+padding: 3px 0 0 0;
+}
+
+#menu a:hover {
+color: lavender;
+border-top: 3px solid darkorange;
+text-decoration: none;
+}
+
+#main h5 {
+margin: 0;
+padding: 0 0 0 5px;
+font-size: 18px;
+font-weight: bold;
+border-left: 3px solid darkorange;
+}
+
+#main h4:before {
+content: '<';
+}
+
+#main h4:after {
+content: '>';
+}
+
+#main h4 {
+margin: 0;
+padding: 0 0 0 5px;
+font-size: 10px;
+color: darkorange;
+font-style: italic;
+border-left: 3px solid darkorange;
+}
+
+#main p {
+margin: 0;
+padding: 1px 0 18px 0;
+font-size: 13px;
+line-height: 18px;
+text-align: justify;
+}
+
+
+/* "Kitaláltam ezt és nézd milyen szép,
+    Keretbe feszül ez a kicsike kép." */
